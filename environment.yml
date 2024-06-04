@@ -1,0 +1,47 @@
+name: metrics
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.9
+  - pyopengl=3.1.6
+  - pyglfw=2.6.5
+  - tqdm=4.66.1
+  - libmujoco=2.3.7
+  - dill=0.3.7
+  - dm-env=1.6
+  - cython<3
+  - einops=0.7.0
+  - promise=2.3
+  - dm-haiku=0.0.6
+  - pytorch=2.1.2
+  - omegaconf=2.3.0
+  - labmaze=1.0.6
+  - fasteners=0.17.3
+  - matplotlib=3.8.2
+  - wandb=0.16.2
+  - gin-config=0.5.0
+  - scipy=1.12.0
+  - scikit-learn=1.4.0
+  - jax==0.3.13
+  - numpy==1.22.4
+  - setuptools==65.5.0
+  - pip=21.0
+  - pandas=2.2
+  - tensorboard=2.8
+  - google-auth==2.7.0
+  - lockfile=0.12
+  - imageio=2.19
+  - h5py=3.10.0
+  - mesalib
+  - glew
+  - patchelf
+  - cudatoolkit
+  - cudnn
+  - cuda-nvcc
+variables:
+  MUJOCO_GL: glfw
+  PYOPENGL_PLATFORM: glfw
+  TF_FORCE_GPU_ALLOW_GROWTH: "true"
+  XLA_PYTHON_CLIENT_PREALLOCATE: "false"

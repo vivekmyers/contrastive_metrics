@@ -1,6 +1,6 @@
 # Contrastive Metric Distillation
 
-Code for the paper "Learning Temporal Distances: Contrastive Successor Features Can Provide a Metric Structure for Decision-Making."
+Code for the paper "Learning Temporal Distances: Contrastive Successor Features Can Provide a Metric Structure for Decision-Making." [arxiv 2406.17098](https://arxiv.org/abs/2406.17098v1)
 
 
 ## Installation
